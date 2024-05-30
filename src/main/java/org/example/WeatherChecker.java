@@ -14,7 +14,7 @@ public class WeatherChecker {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(String.format("http://api.weatherapi.com/v1/current.json?key=%s&q=%s", this.key, location)))
                 .build();
-
+                //did that work?
         HttpResponse<String> response =
                 client.send(request, HttpResponse.BodyHandlers.ofString());
 
