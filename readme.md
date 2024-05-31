@@ -1,32 +1,31 @@
-# Overview
+# Weather Forecast
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+## Small project to help me understand Java HTTP requests, along with its syntax, libaries, and dependencies.
 
-{Provide a description of the software that you wrote to demonstrate the Java language.}
+### This program prompts the user to write a location, then retrieves weather details for that location, such as temperature, sky likeness, and country.
 
-{Describe your purpose for writing this software.}
+I heard about weather APIs, and wondered how challenging it would be to retrieve data from it and display it to the user in Java. This project helped me understand Java a lot better, and made me familiarized with its API handling.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=6Y9iiD_PltU&ab_channel=FelipeDosSantos)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This project was written in Intellij IDEA. I downloaded the full version, and my student email gave me full access to the tool. I set up the project with Gradle, and Coretto 21 JDK.
 
-{Describe the programming language that you used and any libraries.}
+The programming language I used was Java, and I used some of its built-in libraries like BufferedReader, FileWriter, HTTPclient, and JSONobject.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Some websites that were very useful while building this project.
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Stack Overflow](https://stackoverflow.com)
+- [W3 Schools](https://www.w3schools.com)
+- [OpenJDK](https://openjdk.org/groups/net/httpclient/recipes.html)
+- [Baeldung](https://www.baeldung.com/java-9-http-client)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Some ideas I intend to add in the future
 
-- Item 1
-- Item 2
-- Item 3
+- GUI Interface
+- Way to compare weather in between many locations
